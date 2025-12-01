@@ -63,6 +63,12 @@ public class String
 
          string str4 = "HeLlo wORlD";
          Console.WriteLine($"{str4} 转为大写: {str4.ToUpper()}, 转为小写: {str4.ToLower()}");
+
+         string str5 = "Hello This Is Sub String";
+         Console.WriteLine($"{str5}从下标14开始获取, 结果是: {str5.Substring(14)}");
+
+         string[] texts = {"Hello World", "Hello C-Sharp", "Console", "WriteLine"};
+         Console.WriteLine(System.String.Join("\n", texts));
     }
 }
 

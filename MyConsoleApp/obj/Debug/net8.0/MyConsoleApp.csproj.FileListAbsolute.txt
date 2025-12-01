@@ -40,3 +40,4 @@ J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Debug\net8.0\refint\MyConsoleApp.dll
 J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.pdb
 J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.genruntimeconfig.cache
 J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Debug\net8.0\ref\MyConsoleApp.dll
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.sourcelink.json
