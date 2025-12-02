@@ -1,0 +1,15 @@
+J:\Code\C#\MyConsoleApp\MyConsoleApp\bin\Release\net8.0\MyConsoleApp.exe
+J:\Code\C#\MyConsoleApp\MyConsoleApp\bin\Release\net8.0\MyConsoleApp.deps.json
+J:\Code\C#\MyConsoleApp\MyConsoleApp\bin\Release\net8.0\MyConsoleApp.runtimeconfig.json
+J:\Code\C#\MyConsoleApp\MyConsoleApp\bin\Release\net8.0\MyConsoleApp.dll
+J:\Code\C#\MyConsoleApp\MyConsoleApp\bin\Release\net8.0\MyConsoleApp.pdb
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\MyConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\MyConsoleApp.AssemblyInfoInputs.cache
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\MyConsoleApp.AssemblyInfo.cs
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\MyConsoleApp.csproj.CoreCompileInputs.cache
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\MyConsoleApp.sourcelink.json
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\MyConsoleApp.dll
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\refint\MyConsoleApp.dll
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\MyConsoleApp.pdb
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\MyConsoleApp.genruntimeconfig.cache
+J:\Code\C#\MyConsoleApp\MyConsoleApp\obj\Release\net8.0\ref\MyConsoleApp.dll
