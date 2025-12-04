@@ -22,5 +22,25 @@ public class PreprocessorInstructions
         #else
             Console.WriteLine("Other Mode");
         #endif
+
+        
+        // 标记一段代码区域
+        #region MyRegion
+
+        int count = 114;
+        int width = 24;
+
+        int result = count * width;
+
+        #endregion
+    }
+}
+
+
+public class ExecutePreprocessorInstructions
+{
+    public static void Run()
+    {
+        PreprocessorInstructions.Demo();
     }
 }
