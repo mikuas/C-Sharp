@@ -4,8 +4,6 @@ using System.Text;
 
 namespace MyConsoleApp.FilesIOApplication;
 
-// C-Sharp C#
-
 public class FileStreamIO
 {
     public void ReadFile(string filePath)
