@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Diagnostics;
 using MyConsoleApp.FilesIOApplication;
+using MyConsoleApp.AttributeApplication;
+using MyConsoleApp.PropertyApplication;
+using MyConsoleApp.IndexerApplication;
+using MyConsoleApp.DelegateApplication;
 
 
 namespace MyConsoleApp
@@ -9,6 +13,8 @@ namespace MyConsoleApp
     {
         static void Main(string[] args)
         {
+            ExecuteDelegate.Run();
+            return;
             var psi = new ProcessStartInfo
             {
                 FileName = "powershell.exe",
