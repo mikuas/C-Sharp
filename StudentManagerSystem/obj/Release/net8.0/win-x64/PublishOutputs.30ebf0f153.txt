@@ -1,0 +1,5 @@
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\dist\StudentManagerSystem.exe
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\dist\StudentManagerSystem.dll
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\dist\StudentManagerSystem.deps.json
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\dist\StudentManagerSystem.runtimeconfig.json
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\dist\StudentManagerSystem.pdb

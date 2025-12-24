@@ -1,0 +1,5 @@
+E:\Temp\StudentManagerSystem.exe
+E:\Temp\StudentManagerSystem.dll
+E:\Temp\StudentManagerSystem.deps.json
+E:\Temp\StudentManagerSystem.runtimeconfig.json
+E:\Temp\StudentManagerSystem.pdb

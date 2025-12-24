@@ -1,0 +1,15 @@
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\bin\Release\net8.0\win-x64\StudentManagerSystem.exe
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\bin\Release\net8.0\win-x64\StudentManagerSystem.deps.json
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\bin\Release\net8.0\win-x64\StudentManagerSystem.runtimeconfig.json
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\bin\Release\net8.0\win-x64\StudentManagerSystem.dll
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\bin\Release\net8.0\win-x64\StudentManagerSystem.pdb
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\StudentManagerSystem.GeneratedMSBuildEditorConfig.editorconfig
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\StudentManagerSystem.AssemblyInfoInputs.cache
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\StudentManagerSystem.AssemblyInfo.cs
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\StudentManagerSystem.csproj.CoreCompileInputs.cache
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\StudentManagerSystem.sourcelink.json
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\StudentManagerSystem.dll
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\refint\StudentManagerSystem.dll
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\StudentManagerSystem.pdb
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\StudentManagerSystem.genruntimeconfig.cache
+J:\Code\C#\MyConsoleApp\StudentManagerSystem\obj\Release\net8.0\win-x64\ref\StudentManagerSystem.dll
