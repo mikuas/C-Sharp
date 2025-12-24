@@ -63,15 +63,33 @@ public class Cat : Animal
 }
 
 
+// 如果您不希望其他类从某个类继承 请使用 sealed 关键字
+public sealed class Chicken : Animal
+{
+    public Chicken()
+    {
+        Name = "Chicken";
+    }
+
+    public override void Eat()
+    {
+        base.Eat();
+        Console.WriteLine($"{Name} 唱跳Rap");
+    }
+}
+
+
 public class Inheritance
 {
     public static void Demo()
     {
         Animal dog = new Dog();
         Animal cat = new Cat();
+        Animal chicken = new Chicken();
         
         dog.Eat();
         cat.Eat();
+        chicken.Eat();
     }   
 }
 
