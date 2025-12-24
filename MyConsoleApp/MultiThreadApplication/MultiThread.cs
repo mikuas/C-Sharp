@@ -62,7 +62,7 @@ public class MultiThread
         // 获取当前线程名称
         string? name = th.Name;
         th.Name = "Main Thread";
-
+ 
         Console.WriteLine($"Main Thread Name: {name}");
 
         // 获取线程的调度优先级
@@ -72,5 +72,21 @@ public class MultiThread
         // 获取线程状态
         ThreadState ts = th.ThreadState;
         Console.WriteLine($"Main Thread State: {ts}");
+        
+        Console.WriteLine("--------------------------------------------------");
+        
+        // 中断处于 WaitSleepJoin线程状态的线程
+        th.Interrupt();
+
+        // 在继续执行标准的 COM 和 SendMessage 消息泵处理期间 阻塞调用线程 直到某个线程终止为止 此方法有不同的重载形式
+        // th.Join();
+        
+        // 开启一个线程
+        // thread1.Start();
+        
+        // 让线程暂停一段时间
+        // Thread.Sleep(1000);
+
+        Thread.Yield();
     }
 }
