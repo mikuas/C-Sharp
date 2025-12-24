@@ -5,13 +5,24 @@ namespace MyConsoleApp.EnumApplication;
 // 枚举
 enum Day
 {
-    Sun,
+    Sun = 10,
     Mon,
     Tue,
     Wed,
     Thu,
     Fri,
-    Sat
+    Sat,
+}
+
+
+[Flags]
+enum AlignFlags
+{
+    Left = 1 << 0,
+    Right = 1 << 1,
+    Top = 1 << 2,
+    Bottom = 1 << 3,
+    
 }
 
 public class Enum
